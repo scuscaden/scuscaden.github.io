@@ -3,15 +3,13 @@ body {
 }
 
 h1 {
-    color: red;
+    color: yellow;
+    font-size: 50px;
     text-align: center;
-    background-color: gray;
+    background-color: purple;
 }
 h2 {
-  color: black;
+  color: purple;
   font-size: 60px;
   text-align: center;
-
-ul { 
-  color: black;
 }
