@@ -20,6 +20,7 @@ article {
     box-shadow: 2px 2px 5px gray;
     margin: 3em;
     padding: 1em;
+    text-align: justify:
 }
 
 aside {
@@ -43,7 +44,7 @@ footer {
 header {
     border: 3px solid #F6B018;
     background-color: #0E3D65;
-    font-family: times new roman;
+    font-family: "times new roman";
     height: 120px;
     padding: 0;
 }
