@@ -2,7 +2,7 @@
 * {
     padding: 0px;
     margin: 10px;
-    color: #0E3D65;
+    color: blue;
 }
 
 body {
@@ -42,8 +42,8 @@ footer {
 }
 
 header {
-    border: 3px solid #F6B018;
-    background-color: #0E3D65;
+    border: 3px solid blue;
+    background-color: red;
     font-family: "times new roman";
     height: 120px;
     padding: 0;
@@ -87,4 +87,5 @@ img.floatright {
 }
 span: hover {
     text-color: orange;
+    text: underline;
 }
