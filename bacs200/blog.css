@@ -85,3 +85,6 @@ img.floatright {
     width: 50%;
     float: left;
 }
+span: hover {
+    text-color: orange;
+}
