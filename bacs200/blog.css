@@ -9,7 +9,12 @@ body {
     padding: 0px;
     margin: 0px;
 }
-
+h3 {
+    font-style: bold;
+    font-family: cursive;
+    margin: 5px double gray;
+}
+    
 article {
     border: 1px solid gray;
     box-shadow: 2px 2px 5px gray;
@@ -18,12 +23,12 @@ article {
 }
 
 aside {
-    background-color: yellow;
+    background-color: blue;
     text-align: center;
     font-size: 50px;
     font-family: times new roman;
-    color: purple;
-    border: 2px black;
+    color: white;
+    border: 2px double red;
     float: right;
     width: 30%;
 }
