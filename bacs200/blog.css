@@ -8,11 +8,7 @@ body {
     padding: 5px;
     margin: 5px;
 }
-h3 {
-    font-style: bold;
-    font-family: cursive;
-    margin: 5px double gray;
-}
+
     
 article {
     border: 1px solid gray;
@@ -26,7 +22,7 @@ aside {
     background-color: white;
     text-align: center;
     font-size: 50px;
-    font-family: times new roman;
+    font-family: cursive;
     text-color: blue;
     border: 2px double red;
     float: right;
@@ -49,7 +45,7 @@ header {
 }
 
 header * {
-    color: blue;
+    color: white;
 }
 
 hr {
