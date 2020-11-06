@@ -61,9 +61,9 @@ li {
     margin: 5px 3em;
     padding: 0px;
 }
-
-/* ----------------------------------------------- */
-/* Classes */
+img.floatright {
+    float: right;
+}
 
 .header_logo {
     width: 80px;
