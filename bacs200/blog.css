@@ -24,11 +24,11 @@ article {
 }
 
 aside {
-    background-color: blue;
+    background-color: white;
     text-align: center;
     font-size: 50px;
     font-family: times new roman;
-    text-color: white;
+    text-color: blue;
     border: 2px double red;
     float: right;
     width: 30%;
