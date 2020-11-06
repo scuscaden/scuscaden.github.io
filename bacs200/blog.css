@@ -50,12 +50,12 @@ header {
 }
 
 header * {
-    color: #F6B018;
+    color: blue;
 }
 
 hr {
     padding: 0px;
-    border: 4px solid #F6B018;
+    border: 4px solid red;
 }
 
 li {
@@ -85,7 +85,6 @@ img.floatright {
     width: 50%;
     float: left;
 }
-span: hover {
-    text-color: orange;
-    text: underline;
+span:hover {
+    color: orange;
 }
