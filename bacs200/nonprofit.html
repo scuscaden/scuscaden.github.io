@@ -1,201 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v4.1.1">
-    <title>Carousel Template · Bootstrap</title>
+    <title>NonProfit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
 
+<body class="bg-dark">
+    <header class="rounded display-1 text-center text-monospace font-weight-bold text-light bg-danger ml-4 mr-4 mt-3"><u>HOCKEY IS FOR EVERYONE</u></header>
 
+    <div class="container-fluid">
+        <p class="rounded display-4 text-center text-light font-weight-bold bg-primary ml-2 mr-2 mb-4">How We are Making Hockey a More Inclusive Environment for Everyone</p>
+        <div class="container mb-5 mt-5">
+            <!-- SLIDER WITH CONTROLS -->
+            <div id="slider2" class="carousel slide mb-5" data-ride="carousel">
+                <div class="carousel-inner">
 
-    <!-- Bootstrap core CSS -->
-<link href="/docs/4.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+                    <div class="carousel-item active">
+                        <img class="d-block img-fluid mx-auto" src="https://cms.nhl.bamgrid.com/images/photos/304797116/1304x326/cut.jpeg" alt="Hockey is for Everyone Logo">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto" src="https://www.learntoplay.nhl.com/wp-content/uploads/2020/07/integrityValues-1024x478.jpg" alt="Integrity">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto" src="https://www.learntoplay.nhl.com/wp-content/uploads/2020/07/teamworkValues-1024x478.jpg" alt="Teamwork">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto" src="https://www.learntoplay.nhl.com/wp-content/uploads/2020/07/perserveranceValues-1024x478.jpg" alt="Perserverance">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block img-fluid mx-auto" src="https://www.learntoplay.nhl.com/wp-content/uploads/2020/07/acceptanceValues-1024x478.jpg" alt="Acceptance">
+                    </div>
 
-    <!-- Favicons -->
-<link rel="apple-touch-icon" href="/docs/4.5/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-<link rel="manifest" href="/docs/4.5/assets/img/favicons/manifest.json">
-<link rel="mask-icon" href="/docs/4.5/assets/img/favicons/safari-pinned-tab.svg" color="#563d7c">
-<link rel="icon" href="/docs/4.5/assets/img/favicons/favicon.ico">
-<meta name="msapplication-config" content="/docs/4.5/assets/img/favicons/browserconfig.xml">
-<meta name="theme-color" content="#563d7c">
+                </div>
 
+                <!-- CONTROLS -->
+                <a href="#slider2" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
 
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-    <!-- Custom styles for this template -->
-    <link href="nonprofit.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <a class="navbar-brand" href="#">Carousel</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="scuscaden.github.io/bacs200/nonprofit">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="scuscaden.github.io">My GitHub</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="form-inline mt-2 mt-md-0">
-        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-    </div>
-  </nav>
-</header>
-
-<main role="main">
-
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img class="bd-placeholder-img" width="100%" height="100%" src="https://cms.nhl.bamgrid.com/images/photos/304797116/1304x326/cut.jpeg" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
-        <div class="container">
-          <div class="carousel-caption text-left">
-            <h1>Hockey is for Everyone</h1>
-            <p>We support any teammate, coach or fan who brings heart, energy and passion to the rink. We believe all hockey programs - from professionals to youth organizations - should provide a safe, positive and inclusive environment for players and families regardless of race, color, religion, national origin, gender identity or expression, disability, sexual orientation and socio-economic status</p>
-          </div>
+                <a href="#slider2" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="bd-placeholder-img" width="100%" height="100%" src="https://www.learntoplay.nhl.com/wp-content/uploads/2020/07/integrityValues-1024x478.jpg" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Promoting Values On and Off the Ice</h1>
-          </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 2000,
+            keyboard: true,
+            pause: 'hover',
+            wrap: true
+        });
+
+    </script>
+    <h1 class="text-warning font-weight-bold text-center bg-success mr-4 ml-4 rounded">Hockey is for Everyone™ uses the game of hockey - and the League's global influence - to drive positive social change and foster more inclusive communities.
+We support any teammate, coach or fan who brings heart, energy and passion to the rink. We believe all hockey programs - from professionals to youth organizations - should provide a safe, positive and inclusive environment for players and families regardless of race, color, religion, national origin, gender identity or expression, disability, sexual orientation and socio-economic status.</h1>
+    <div class="accordion" id="accordionExample">
+        <div class="card mr-4 ml-4">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0 ">
+        <button class="btn btn-link btn-block text-center" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          The NHL PA and Their Charities 
+        </button>
+      </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show text-center" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    The NHL and the PA (Players Assosiation) have joined forces with local grassroots efforts to improve the inclusivity of the game.  Bringing international recognition to issues that have plagued hockey in the past to create a game that is more accepting of different backgrounds and increasing accessability of the sport to communities that previosly did not have the resources to play the sport. 
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <img class="bd-placeholder-img" width="100%" height="100%" src="https://www.learntoplay.nhl.com/wp-content/uploads/2020/07/perserveranceValues-1024x478.jpg" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/>
-        <div class="container">
-          <div class="carousel-caption text-right">
-            <h1>Building Better Communities</h1>
-          </div>
+        <div class="card mr-4 ml-4">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          The Charities
+        </button>
+      </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body text-left">
+                    <p>The Charities</p>
+                    <ul>
+                        <li>Hockey is for Everyone</li>
+                        <li>Learn to Play Programs</li>
+                        <li>Future Goals</li>
+                        <li>You Can Play</li>
+                        <li>Movember</li>
+                        <li>Hockey Fights Cancer</li>
+                    </ul>
+                    <a href="https://www.nhlpa.com/be-a-player/in-the-community" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Learn about the programs and how you can contribute</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-
-
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="https://cms.nhl.bamgrid.com/images/photos/286336318/568x320/cut.jpg" preserveAspectRatio="xMidYMid slice" focusable="false" aria-label="Placeholder: 140x140"><title>Willie O'Ree</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
+        <div class="card mr-4 ml-4">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Important Leaders
+        </button>
+      </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body text-left">
+                    <p> </p>
+                    <ul>
+                        <li>Willie O'Ree- Diversity Ambassador</li>
+                        <li><img src="https://cms.nhl.bamgrid.com/images/photos/286336318/568x320/cut.jpg" alt="Willie O'Ree"></li>
+                        <li>Angela James- James is widely considered the first superstar of modern women's hockey. James, who is multiracial and a pioneer for LGBTQ people in sports, began her hockey career playing with and against the boys before her talents and efforts helped women's hockey flourish. James is one of the first females inducted into the IIHF Hall of Fame (2008), Canada's Sports Hall of Fame (2009) and the Hockey Hall of Fame (2010).</li>
+                        <li><img src="https://cms.nhl.bamgrid.com/images/photos/295489998/320x180/cut.jpg" alt="Angela James"></li>
+                        <li>Josh Pauls- Pauls is the captain of the U.S. National Sled team who will be competing at the 2018 Paralympics. Though he had both legs amputated as an infant, Pauls grew up with dreams of becoming the first NHL goalie with no legs. Pauls joined the New York Rangers Junior Sled Hockey club at age 10, and by age 17 had won the gold medal in the Vancouver 2010 Paralympic Winter Games.</li>
+                        <li><img src="https://cms.nhl.bamgrid.com/images/photos/295488822/320x180/cut.jpg" alt="Josh Pauls"></li>
+                        <li>SFC. Joseph Bowser- Bowser, a 14-year military veteran and Staff Assistant to the Secretary of the Army, is a founding member of USA Warriors - an ice hockey program for wounded veterans. For Bowser and other warriors, hockey is playing a major role in their recovery, both physically and emotionally.</li>
+                        <li><img src="https://cms.nhl.bamgrid.com/images/photos/295488602/320x180/cut.jpg" alt"Joseph Bowser"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
+    <footer>
+        <p class="ml-4 mr-4 mb-4 mt-4 rounded display-4 text-warning bg-success">Contact The Organizations </p>
+   
+        <div class="tab-content" id="pills-tabContent">
+            <div class=" ml-4 mr-4 mb-4 mt-4 tab-pane fade show active text-light" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                <a href="https://www.learntoplay.nhl.com/">Learn to Play</a>
+                <a href="https://www.nhlpa.com/be-a-player/nhlpa-goals-and-dreams">Goals and Dreams</a>
+                <a href="https://www.nhl.com/community/hockey-is-for-everyone/">Hockey is for Everyone</a>
+                </div>
+            <div class=" ml-4 mr-4 mb-4 mt-4 tab-pane fade text-light" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">1100 10th Street
+                <br> Greeley, CO 80631
+                <br> tel: 970-350-9510
+                <br> Fire Marshal: Bob.Fries@greeleygov.com</div>
+        </div>
+    </footer>
+</body>
 
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
-  <footer class="container">
-    <p class="float-right"><a href="#">Back to top</a></p>
-    <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-  </footer>
-</main>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script></body>
 </html>
